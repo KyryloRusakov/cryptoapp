@@ -44,11 +44,11 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      <Link to={'/'}>
+      <Link to={'/cryptoapp'}>
         <img src={logo} alt="logo" className="logo" />
       </Link>
       <ul className="menu">
-        <Link to={'/'} className="menu-item">Home</Link>
+        <Link to={'/cryptoapp'} className="menu-item">Home</Link>
         <li className="menu-item">Features</li>
         <li className="menu-item">Pricing</li>
         <li className="menu-item">Blog</li>
